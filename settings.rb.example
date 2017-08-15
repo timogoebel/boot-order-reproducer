@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+# This file contains login credentials for the vSphere cluster
+
+SETTINGS = {
+  :host => 'vcenter.example.com',
+  :user => 'myuser',
+  :password => 'mypassword',
+  :datacenter => 'DC',
+  :cluster => 'Cluster',
+  :resourcePool => 'default',
+  :folder => 'VMs/All'
+}
